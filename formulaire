@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+
+  <title>Mon premiere formulaire</title>
+    </head>
+    <body>
+
+  <form>
+  <h1> Votre Avis Nous Intéresse </h1>
+  <Style>
+  .container{
+  Display: flex;
+  }
+  </style>
+  <div class=container>
+
+  <fieldset>
+	<legend>Information Personnelle</legend>
+Nom : <input type="text" name="Nom" maxlength="25"/><br/>
+Date de naissance : <input  name="Date de naissance" type="date" required="" maxlength="25" /><br/>
+<tr>
+      <td>
+      Emploi</td>
+     <td> <select name="Emploi" maxlength="25"><option value ="">
+       </option>
+       <option value ="directeur">directeur </option>
+      <option value="Administrateur">Administrateur</option>
+      <option value ="architecte">architecte </option>
+      <option value ="professeur">professeur </option>
+      <option value ="ingénieur">ingénieur</option>
+      </select>
+      </td>
+ </tr>
+ Aprox. salaire Annuel</br>
+   <input type="number" name="salaire" id="salaire" placeholder="$" maxlength="25"/><br/>
+Site
+   <input type="text" name="salaire" id="salaire"  placeholder="http://monsite.com" maxlength="25" /><br/>
+ </fieldset>
+<fieldset>
+	<legend>Information de contact</legend>
+Adresse Line 1<br>
+
+				<input type="address" name="Adresse Line 1" id="Adresse Line 1" value=""/><br/>
+Adresse Line 2<br>
+
+				<input type="address" name="Adresse Line 2" id="Adresse Line 2" value=""/><br/>
+<tr>
+      <td> Pays</td>
+     <td> <select name="distination" id="distination"><option value ="">
+       </option>
+       <option value ="Algérie"> Algérie </option>
+      <option value="Tunisie"> Tunisie </option>
+      <option value ="Maroc"> Maroc </option>
+      <option value ="Sahara occidentale">Sahara occidentale </option>
+      <option value ="Libye">Libye</option>
+      <option value ="Mauritanie">Mauritanie</option>
+      </select>
+      </td>
+ </tr>
+Tel
+   <input type="number" name="Tel" id="Tel"  placeholder="eg: +213 67..."/><br/>
+Courriel
+   <input type="email" name="Courriel" id="Courriel" required="" maxlength="25"/><br/>
+</fieldset>
+
+</div>
+<div class="Préférences">
+<h2>Préférences </h2>
+<p>Choisir une couleur <input type="color" required="" /></p><br>
+Sur une échelle de 1 à 10, quel est votre degré d'enthousiasme pour HTML5?
+<input type="range" required="" /><br>
+    <input type="submit" value="Envoyer">
+  </div>
+
+</body>
+</html>
+www.monsite.com
+monsite.com
